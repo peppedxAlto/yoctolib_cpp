@@ -3,9 +3,6 @@ cmake_minimum_required(VERSION 3.8)
 
 
 project(YoctoLib VERSION 1.0.1 DESCRIPTION "Yoctopuce C++ library")
-if(${CMAKE_SYSTEM_NAME} STREQUAL "Linux")
-SET(CMAKE_INSTALL_PREFIX "/usr")
-endif()
 include(GNUInstallDirs)
 
 
